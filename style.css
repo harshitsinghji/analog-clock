@@ -1,0 +1,52 @@
+#clock{
+   
+    height: 40vw;
+    width: 40vw;
+    background: url(clook.jpg)no-repeat;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+#hour , #minute , #second , #circle{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#circle{
+   height: 4%;
+   width: 4%;
+   top: 46.5%;
+   left: 48.3%;
+
+}
+
+
+#hour{
+    width: 1.5%;
+    height: 22%;
+    top: 28%;
+    left: 50%;
+    
+}
+
+#minute{
+    width: 1.1%;
+    height: 26%;
+    top: 23%;
+    left: 50%;
+    
+}
+
+#second{
+    width: 0.5%;
+    height: 37%;
+    top: 12%;
+    left: 50%;
+}
+
+
